@@ -10,7 +10,8 @@ public class StudentGrade {
         System.out.println("Enter the student mark:");
             System.out.println("Student grade is " +
                     getGrade(scan.nextInt()));
-
+        
+        scan().close;
     } 
     
     /**
@@ -27,4 +28,5 @@ public class StudentGrade {
         else 
             return "F";
     }
+    
 }
