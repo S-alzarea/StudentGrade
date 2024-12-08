@@ -11,7 +11,7 @@ public class StudentGrade {
             System.out.println("Student grade is " +
                     getGrade(scan.nextInt()));
         
-        scan().close;
+        scan.close();
     } 
     
     /**
